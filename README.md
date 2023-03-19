@@ -1,0 +1,1 @@
+python release_tool.py --config path-to/config.json

@@ -1,0 +1,38 @@
+{
+    "version_info": {
+      "keywords": ["version", "ver", "version_info"],
+      "old_version": "1.0.0",
+      "new_version": "2.0.0"
+    },
+    "repositories": [
+      {
+        "path": "/path/to/repo1",
+        "branch": "development",
+        "files": [
+          {
+            "path": "file1.txt",
+            "keywords": ["version", "ver"]
+          },
+          {
+            "path": "dir1/file2.txt",
+            "keywords": ["version_info"]
+          }
+        ]
+      },
+      {
+        "path": "/path/to/repo2",
+        "branch": "development",
+        "files": [
+          {
+            "path": "file3.txt",
+            "keywords": ["version"]
+          },
+          {
+            "path": "dir2/file4.txt",
+            "keywords": ["ver"]
+          }
+        ]
+      }
+    ]
+  }
+  
